@@ -583,6 +583,30 @@ nav{
         height: 100%;
         gap: 0.4rem;
 }
+
+
+@media screen and (min-width:630px){
+    .news-title{
+        font-size: 2.5rem;
+    }
+}
+.footer-contianer{
+    max-width: 1380px;
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 20vh;
+    padding: 2rem;
+    margin-top: -2rem;
+}
+
+.footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--light-gray);
+        height: 100%;
+        gap: 0.4rem;
+}
 .footer-title{
     font-size: 1.2rem;
     font-weight: 500;
@@ -597,12 +621,4 @@ nav{
     font-weight: 500;
     color: #3f83f8;
 }
-    text-decoration: underline;
-    color: #2563eb;
-}
-
-@media screen and (min-width:630px){
-    .news-title{
-        font-size: 2.5rem;
-    }
-}
+   
