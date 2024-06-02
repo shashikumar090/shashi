@@ -592,10 +592,7 @@ nav{
     color: #2563eb;
 }
 
-
-
- 
-.footer-contianer{
+ .footer-contianer{
     max-width: 1380px;
     margin: 0 auto;
     height: 20vh;
@@ -611,6 +608,7 @@ nav{
         height: 100%;
         gap: 0.4rem;
         border-radius: 5px;
+        flex-direction: row;
 }
 .footer-title{
     font-size: 1.2rem;
@@ -662,8 +660,11 @@ nav{
     font-size: 1.5rem;
     font-weight: 500;
  }
-@media screen and (max-width:450){
+ 
+ @media screen and (max-width:450px){
+    
     .footer-content{
-        display: block;
+      flex-direction: column;
     }
+   
  }
