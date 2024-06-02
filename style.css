@@ -594,9 +594,9 @@ nav{
 
 
 
+ 
 .footer-contianer{
     max-width: 1380px;
-    border: 2px solid black;
     margin: 0 auto;
     height: 20vh;
     padding: 2rem;
@@ -610,6 +610,7 @@ nav{
         background-color: var(--light-gray);
         height: 100%;
         gap: 0.4rem;
+        border-radius: 5px;
 }
 .footer-title{
     font-size: 1.2rem;
@@ -619,9 +620,45 @@ nav{
 .footer-author{
     font-size: 1.2rem;
     font-weight: 500;
+    display: inline-flex;
+    gap: -0.2rem;
+    align-items: center;
+    justify-content: center;
+     
 }
-.footer-author::first-letter{
+.first-letter{
+    color:var(--accent-color);
     font-size: 2rem;
     font-weight: 500;
-    color: #3f83f8;
-}
+ }
+
+.second-letter{
+    color: #44bfc3;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .third-letter{
+    color: #ea56aa;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .fourth-letter{
+    color: #2c26db;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .fifth-letter{
+    color: #5b780b;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .sixth-letter{
+    color: #b91ff0;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .seventh-letter{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
