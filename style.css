@@ -575,7 +575,28 @@ nav{
     padding: 0 3rem;
     color: #777;
 }
-.news-link{
+.news-link{.footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--light-gray);
+        height: 100%;
+        gap: 0.4rem;
+}
+.footer-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.footer-author{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.footer-author::first-letter{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #3f83f8;
+}
     text-decoration: underline;
     color: #2563eb;
 }
